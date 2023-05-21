@@ -38,4 +38,5 @@ body {
   padding: 5px;
   width: 8em;
   background-color: #80dcac;
+  cursor: pointer;
 }

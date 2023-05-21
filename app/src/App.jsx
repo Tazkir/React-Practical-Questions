@@ -80,7 +80,7 @@ function App() {
       sorter: (a, b) => a.location - b.location,
     },
     {
-      title: 'Last Update',
+      title: 'Last Updated',
       dataIndex: 'update',
       key: 'update',
       sorter: (a, b) => a.update - b.update,
@@ -96,11 +96,7 @@ function App() {
         <div className="add">
           <button>+ New Vehicle</button>
         </div>
-        <Table
-          dataSource={Users}
-          columns={columns}
-          className="table"
-        />
+        <Table dataSource={Users} columns={columns} className="table" />
       </div>
     </>
   );
